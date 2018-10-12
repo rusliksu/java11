@@ -13,7 +13,7 @@ public class LotteryOdds {
         int n = in.nextInt();
 
 //        вычислить биномиальный коэффициент по формуле:
-//        n*(n-1)*(n-2)*...*(n-k-1)/(1*2*3*...*k)
+//        n*(n-1)*(n-2)*...*(n-k-1)/(1*2*3*...*k)iohh89
 
         int lotteryOdds = 1;
         for (int i = 1; i <= k; i++)

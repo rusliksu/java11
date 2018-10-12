@@ -18,7 +18,7 @@ public class Main {
     }
 
     private static boolean validatePin(String pin) {
-        // Your code here...hdffdh
+        // Your code here...hdffdhihoihiohoi
 
         return (pin.length() == 4 || pin.length() == 6) && pin.matches("[0-9]+");
     }
