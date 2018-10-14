@@ -17,16 +17,18 @@ public class SimpleClass {
         for (Employee e : staff)
             e.raiseSalary(5);
 
-        // вывести данные обо всех объектах типа Empoyee
+        // вывести данные обо всех объектах типа Employee
         for (Employee e : staff)
             System.out.println("name=" + e.getName() + ",salary=" + e.getSalary() + ",hireDay=" + e.getHireDay());
     }
 }
 
 class Employee {
-    // поля экземпляра
+    private static int nextId = 1;
+
     private String name;
     private double salary;
+    private int id;
     private LocalDate hireDay;
 
     // конструктор
@@ -34,6 +36,7 @@ class Employee {
     {
         name = n;
         salary = s;
+        id = 0;
         hireDay = LocalDate.of(year, month, day);
     }
 
@@ -48,6 +51,18 @@ class Employee {
         return salary;
     }
 
+    public int getId() { return id; }
+
+    public void setId() {
+        id = nextId; // установить следующий доступный идентификатор
+        nextId++;
+    }
+
+    public static int getNextId()
+    {
+        return nextId; // возратить статическое поле
+    }
+
     public LocalDate getHireDay()
     {
         return hireDay;
@@ -57,5 +72,11 @@ class Employee {
     {
         double raise = salary * byPercent / 100;
         salary += raise;
+    }
+
+    public static void main(String[] args) // выполнить модульный тест
+    {
+        Employee e = new Employee("Harry", 50000, 1987, 12, 1);
+        System.out.println(e.getName() + " " + e.getSalary());
     }
 }
