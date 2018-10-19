@@ -24,7 +24,7 @@ public class SimpleClass {
 }
 
 class Employee {
-    private static int nextId = 1;
+    private static int nextId;
 
     private String name;
     private double salary;
