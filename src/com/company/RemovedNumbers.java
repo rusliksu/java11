@@ -18,7 +18,7 @@ public class RemovedNumbers {
         double sum = n*(n+1)/2;
         double b;
         List<long[]> AnswerList = new ArrayList<>();
-        for (int i = 2; i<=n; i++)
+        for (int i = 1; i<=n; i++)
         {
             b = (sum - i)/(i+1);
             if (b<=n && b%1==0)
