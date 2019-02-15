@@ -14,7 +14,7 @@ public class PersonTest {
         people[1] = new Student("Maria Morris", "computer science");
 
         // вывести имена и описания всех лиц,
-        // представленных объектами типа Person
+        // представленных объектами типа Person кек
         for (Person p : people)
             System.out.println(p.getName() + ", " + p.getDescription());
     }
