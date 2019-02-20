@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7c560221-4fc8-4999-aea3-6f908c8654ad" name="Default Changelist" comment="StaticTest">
-      <change afterPath="$PROJECT_DIR$/src/abstractClasses/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/abstractClasses/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/abstractClasses/PersonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/abstractClasses/Student.java" afterDir="false" />
+    <list default="true" id="7c560221-4fc8-4999-aea3-6f908c8654ad" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java2/com/company/RemovedNumbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java2/com/company/RemovedNumbers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inheritance/ManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inheritance/ManagerTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -56,20 +52,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Inheritance/ManagerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+            <state relative-caret-position="255">
+              <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/abstractClasses/PersonTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="51" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
+            <state relative-caret-position="323">
+              <caret line="19" selection-start-line="18" selection-end-line="19" />
             </state>
           </provider>
         </entry>
@@ -153,11 +149,11 @@
         <option value="$PROJECT_DIR$/src/com/company/Solution.java" />
         <option value="$PROJECT_DIR$/src/Inheritance/Employee.java" />
         <option value="$PROJECT_DIR$/src/Inheritance/Manager.java" />
-        <option value="$PROJECT_DIR$/src/Inheritance/ManagerTest.java" />
         <option value="$PROJECT_DIR$/src/abstractClasses/Person.java" />
         <option value="$PROJECT_DIR$/src/abstractClasses/Employee.java" />
         <option value="$PROJECT_DIR$/src/abstractClasses/Student.java" />
         <option value="$PROJECT_DIR$/src/abstractClasses/PersonTest.java" />
+        <option value="$PROJECT_DIR$/src/Inheritance/ManagerTest.java" />
       </list>
     </option>
   </component>
@@ -173,8 +169,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -196,6 +192,24 @@
               <item name="javaaa" type="b2602c69:ProjectViewProjectNode" />
               <item name="javaaa" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaaa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaaa" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="abstractClasses" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaaa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaaa" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaaa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaaa" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Inheritance" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -372,13 +386,20 @@
       <option name="project" value="LOCAL" />
       <updated>1540933910462</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="StaticTest">
+      <created>1550274073610</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1550274073610</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.110341154" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.195629" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -387,16 +408,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.0" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="8" side_tool="true" visible="true" weight="0.32936078" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.30923077" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="8" sideWeight="0.50053304" side_tool="true" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49840087" weight="0.19826652" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3295082" />
-      <window_info anchor="right" id="Maven" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -406,6 +426,7 @@
       <window_info anchor="right" id="Maven Projects" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Coverage" order="8" side_tool="true" />
+      <window_info anchor="right" id="Maven" order="9" />
     </layout>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -449,6 +470,9 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/../java2" />
+    </ignored-roots>
     <MESSAGE value="fhd" />
     <MESSAGE value="StaticTest" />
     <option name="LAST_COMMIT_MESSAGE" value="StaticTest" />
@@ -628,10 +652,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Inheritance/ManagerTest.java">
+    <entry file="file://$PROJECT_DIR$/src/abstractClasses/PersonTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        <state relative-caret-position="323">
+          <caret line="19" selection-start-line="18" selection-end-line="19" />
         </state>
       </provider>
     </entry>
@@ -678,10 +702,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/abstractClasses/PersonTest.java">
+    <entry file="file://$PROJECT_DIR$/src/Inheritance/ManagerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="51" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
+        <state relative-caret-position="255">
+          <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
         </state>
       </provider>
     </entry>

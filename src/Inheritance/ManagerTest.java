@@ -13,6 +13,7 @@ public class ManagerTest {
         staff[0] = boss;
         staff[1] = new Employee("Harry Hacker", 50000, 1989, 10, 1);
         staff[2] = new Employee("Tommy Tester", 40000, 1990, 3, 15);
+        Manager boss1 = (Manager) staff[1];
 
         // вывести данные обо всех объектах типа Employee
         for (Employee e : staff)
