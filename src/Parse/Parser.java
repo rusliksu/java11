@@ -102,5 +102,4 @@ public class Parser {
         System.out.println(parseInt("seven hundred eighty-three thousand nine hundred and nineteen"));
     }
 
-
 }
